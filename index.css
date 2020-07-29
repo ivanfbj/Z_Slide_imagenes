@@ -1,0 +1,47 @@
+body {
+  background: #f0f2f0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #000c40,
+    #f0f2f0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #f0f2f0,
+    #000c40
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#buttons {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  line-height: 30px;
+  padding: 10px;
+  border-radius: 50px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+  text-decoration: none;
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  background-image: linear-gradient(
+    to right,
+    rgb(28, 110, 164) 0%,
+    rgb(35, 136, 203) 50%,
+    rgb(20, 78, 117) 100%
+  );
+  box-shadow: rgb(0, 0, 0) 5px 5px 15px 5px;
+  border: 2px solid rgb(28, 110, 164);
+  display: inline-block;
+}
+#buttons:hover {
+  background: #2aa6f8;
+}
+#buttons:active {
+  background: #0b2b41;
+}
+
+#slider {
+  width: 400px;
+  height: 600px;
+}
