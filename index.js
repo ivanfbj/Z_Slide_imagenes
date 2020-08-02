@@ -4,7 +4,9 @@ var images = [
   "./images/dragon_azul.png",
   "./images/exodia.png",
   "./images/kuriboh.png",
-  "./images/maga_oscuro.png"
+  "./images/maga_oscuro.png",
+  "./images/Planta.png",
+  "./images/zombie.png"
 ];
 var num = 0;
 
